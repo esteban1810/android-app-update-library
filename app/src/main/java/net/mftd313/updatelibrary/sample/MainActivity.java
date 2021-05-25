@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
         progressDialog.setIndeterminate(true);
         progressDialog.setCancelable(false);
 
-        final String url = "http://ytsmartplayer.mftd313.net/releases/YTSmartPlayer-release-v1.0.8.apk";
+        final String url = "https://github.com/esteban1810/ActualizadorApp/blob/main/actualizador.apk";
         //final String url = "https://d-15.winudf.com/b/apk/Y29tLmZhY2Vib29rLmthdGFuYV8xNzY1MTUyMDVfOThhMjQzYTI?_fn=RmFjZWJvb2tfdjI0Mi4wLjAuNDMuMTE5X2Fwa3B1cmUuY29tLmFwaw&_p=Y29tLmZhY2Vib29rLmthdGFuYQ&k=30f00e65680b1f8e8a9475d6248771c05d9f426a&uu=http%3A%2F%2F172.16.53.1%2Fb%2Fapk%2FY29tLmZhY2Vib29rLmthdGFuYV8xNzY1MTUyMDVfOThhMjQzYTI%3Fk%3D6bc71e7abd95402778f14da21bc9f4675d9f426a";
 
         UpdateLibrary.with(MainActivity.this)
